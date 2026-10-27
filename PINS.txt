@@ -1,0 +1,47 @@
+ARDUINO UNO
+  HC-SR04 (on the servo)   VCC -> 5V      GND -> GND      TRIG -> A0      ECHO -> A1
+  Servo                    signal (orange/yellow) -> D3
+                           + (red)   -> LM2596 OUT+  (5 V)
+                           - (brown) -> GND
+  L298N                    ENA -> D5      IN1 -> D7       IN2 -> D8       (left motors)
+                           ENB -> D6      IN3 -> D9       IN4 -> D10      (right motors)
+                           GND -> Arduino GND
+                           take OFF the 2 jumpers on ENA and ENB
+  USB                      Arduino -> MacBook  (only for uploading, or if you drive with the cable)
+  VIN                      -> battery +   (powers the Arduino when the USB cable is out)
+  D0 (RX)                  <- ESP32-CAM IO14              (WiFi link, see below)
+  D1 (TX)                  -> 1k resistor -> ESP32-CAM IO13
+
+L298N
+  12V       -> battery +   (battery 7-12 V, e.g. 2 x 18650 = 7.4 V)
+  GND       -> battery -
+  5V        -> nothing
+  OUT1/OUT2 -> the 2 LEFT motors  (both on the same pair of screws)
+  OUT3/OUT4 -> the 2 RIGHT motors
+
+LM2596 (5 V for the servo and the camera)
+  IN+  -> battery +        IN-  -> battery -
+  First, with nothing on OUT: turn the brass screw until a multimeter on OUT+/OUT- shows 5.0 V
+  OUT+ -> servo red, ESP32-CAM 5V
+  OUT- -> servo brown, ESP32-CAM GND
+
+ESP32-CAM (the eye in stage 3 AND the radio in all stages)
+  5V  -> LM2596 OUT+       GND -> LM2596 OUT-
+  IO14 -> Arduino D0 (RX)                  direct wire
+  IO13 <- 1k <- Arduino D1 (TX)            and IO13 -> 2k -> GND
+         (no 2k? two 1k in series. The divider turns the Arduino's 5 V into 3.3 V:
+          5 V straight into the ESP32 can damage it.)
+
+          Arduino D1 ---[ 1k ]---+--- ESP32-CAM IO13
+                                 |
+                               [ 2k ]
+                                 |
+                                GND
+
+  Mount it fixed on the FRONT of the car, looking straight ahead (not on the servo).
+  The sonar stays on the servo. Then you never swap parts between stages.
+
+  !! Uploading the car code (bash upload_car.sh): pull the wire out of Arduino D0 first,
+     plug it back after. Same if you want to drive with the USB cable instead of WiFi.
+
+ALL GROUNDS TOGETHER: battery -, L298N GND, LM2596 IN-/OUT-, Arduino GND, servo -, ESP32-CAM GND.

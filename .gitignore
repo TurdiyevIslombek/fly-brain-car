@@ -1,0 +1,9 @@
+esp32cam/camera_stream/wifi_settings.h
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+.DS_Store
+tools/bin/
+runs/*.csv
+!runs/*20261024_16*.csv

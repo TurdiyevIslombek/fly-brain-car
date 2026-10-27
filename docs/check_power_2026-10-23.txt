@@ -1,0 +1,13 @@
+tools/check_power.py, Oct 23, 2026 (before the two-battery fix)
+Car on a box, wheels in the air, one pack of 6 alkaline AA cells feeding everything.
+The script reads the lowest 5 V the Arduino measured during each step (heartbeat "H,mV").
+
+  motors OFF    lowest 5 V: 5.18 V
+  motors HALF   lowest 5 V: 4.11 V
+  motors FULL   lowest 5 V: 5.18 V
+  servo: answered in 5 of 5 directions
+
+Values copied from my terminal output. In the HALF and FULL steps the motors made a whining
+sound and only one motor turned slightly, so the FULL reading is not a real full-load test.
+The 4.11 V reading is below the 4.5 V where the servo stops turning, which matched the
+problem seen while driving (the sensor stopped sweeping).

@@ -1,0 +1,63 @@
+VS Code: File > Open Folder > this folder.  Then: Terminal > Run Task...  and pick a task.
+(Same from the Terminal: bash setup_mac.sh / bash upload_car.sh / bash upload_camera.sh / bash run.sh)
+
+ONE TIME
+  1  Setup (one time)                    installs Python libraries, arduino-cli, Arduino + ESP32 support (internet, ~15 min)
+
+ARDUINO
+  2  Upload car code (Arduino)           Arduino on USB. Close the car app first.
+     Check motors                        battery on, wheels in the air
+     Check servo
+
+CAMERA (stage 3)
+  3  Upload camera code (ESP32-CAM)      ESP32-CAM on its ESP32-CAM-MB board, USB to the Mac, Arduino unplugged.
+                                         It asks for your WiFi (2.4 GHz). Empty = the camera makes its own WiFi
+                                         "FlyCar-CAM" (password change-me-123): then connect the Mac to that WiFi.
+                                         At the end it prints the camera address: open it in Safari, you see video.
+     Then take it off the MB board, power it from the LM2596, mount it on the servo.
+     The Mac must be on the same WiFi as the camera.
+
+DRIVE
+  4  Start the car app                   buttons STAGE 1 / STAGE 2 / STAGE 3 / STOP / swap eyes
+                                         keys: 1 2 3, space = STOP, s = swap eyes
+     Start the app WITHOUT the robot     simulated car, to try everything
+
+NO CABLE (WiFi through the ESP32-CAM)
+     1  Upload the new camera code once (bash upload_camera.sh).
+     2  Wire it: PINS.txt -> ESP32-CAM. Battery + -> Arduino VIN. USB cable out.
+     3  config.py:  PORT = "wifi"      (it uses the camera address from CAMERA)
+     4  Car on, Mac on the same WiFi as the camera, then bash run.sh. All 3 buttons work.
+     WiFi drops -> the Arduino stops the motors by itself (0.3 s), the app reconnects.
+     Stage 1 with no laptop at all: START_MODE = 1 at the top of car.ino, upload, power on.
+
+RADAR (stages 1 and 2)
+     The sensor sweeps 5 directions: far left 70, left 35, straight, right 35, far right 70 degrees.
+     The window draws the last 2.5 s of echoes as fading dots, like a ship's radar.
+     Leave the sensor's 4 wires LOOSE (a small loop), or they pull the sensor back when it turns.
+     Wrong way / not straight: Check servo, then LEFT_SIGN / CENTER_DEG / NEAR_DEG / WIDE_DEG in car.ino.
+
+SERVO STOPS TURNING WHILE DRIVING
+     Run "Check power" (car on a box, wheels in the air). It shows the lowest 5 V while the motors run.
+     Below 4.5 V = the battery can't feed motors + servo: charge it, servo + on the LM2596 5 V,
+     a 470-1000 uF capacitor across servo + and -. The app also warns "5 V DROPPED" while driving.
+
+BATTERY
+     Measure the pack with the multimeter (red on +, black on -). Write the number in
+     arduino/car/car.ino:  const float BATTERY_V = 12.0;   then upload the car code again.
+     The code scales the motor power to it (motors get at most ~6 V, whatever the pack).
+     More than 20 V: NOT on Arduino VIN (its limit). Ask first.
+
+STATUS LINE (bottom of the window; also printed in the terminal and saved in the CSV "event" column)
+     LINK LOST ...            WiFi to the car dropped. Motors already stopped. Reconnects by itself.
+     Arduino restarted Nx     the battery voltage dipped (weak/empty pack, loose wire). Charge it.
+     NO SONAR DATA            no distance readings for 1.5 s: sensor wires, or the Arduino is busy/stuck.
+     CAMERA FROZEN            no new picture for 0.5 s (stage 3): the car stops until pictures come back.
+     STUCK                    the stuck reflex is driving (backs up and turns), not the brain/rules.
+
+SOUND ("tiiii" while driving)
+     That is the motors singing at the Arduino's 980 Hz PWM. Harmless. To silence it: move 3 wires
+     (L298N ENA D5 -> D11, ENB D6 -> D3, servo signal D3 -> D4), set QUIET_WIRING to 1 at the top
+     of car.ino, upload. Or simply record the video with a voice-over / music instead of car sound.
+
+Every run is saved in runs/ (one CSV per run).
+Settings: config.py (camera address, camera upside down, speeds). Arduino: top of arduino/car/car.ino (pins, servo angles, stage 1 rules).

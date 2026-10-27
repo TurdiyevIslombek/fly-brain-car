@@ -1,0 +1,1073 @@
+{
+ "real": {
+  "left": {
+   "turn": 40.0,
+   "back": 3.5,
+   "steer_L": 0.0,
+   "steer_R": 40.0
+  },
+  "right": {
+   "turn": -79.0,
+   "back": 13.25,
+   "steer_L": 79.0,
+   "steer_R": 0.0
+  },
+  "both": {
+   "turn": 0.0,
+   "back": 22.0,
+   "steer_L": 1.0,
+   "steer_R": 1.0
+  },
+  "mean_rate_all_hz": 66.7940403155127
+ },
+ "shuf0": {
+  "left": {
+   "turn": 124.0,
+   "back": 122.75,
+   "steer_L": 212.0,
+   "steer_R": 336.0
+  },
+  "right": {
+   "turn": 77.0,
+   "back": 103.75,
+   "steer_L": 241.0,
+   "steer_R": 318.0
+  },
+  "both": {
+   "turn": 106.0,
+   "back": 147.25,
+   "steer_L": 289.0,
+   "steer_R": 395.0
+  },
+  "mean_rate_all_hz": 97.81156879929885
+ },
+ "shuf1": {
+  "left": {
+   "turn": 76.0,
+   "back": 40.75,
+   "steer_L": 159.0,
+   "steer_R": 235.0
+  },
+  "right": {
+   "turn": 102.0,
+   "back": 44.0,
+   "steer_L": 149.0,
+   "steer_R": 251.0
+  },
+  "both": {
+   "turn": 110.0,
+   "back": 50.5,
+   "steer_L": 207.0,
+   "steer_R": 317.0
+  },
+  "mean_rate_all_hz": 96.6546888694128
+ },
+ "shuf2": {
+  "left": {
+   "turn": 44.0,
+   "back": 0.25,
+   "steer_L": 156.0,
+   "steer_R": 200.0
+  },
+  "right": {
+   "turn": -50.0,
+   "back": 1.5,
+   "steer_L": 189.0,
+   "steer_R": 139.0
+  },
+  "both": {
+   "turn": 34.0,
+   "back": 0.75,
+   "steer_L": 204.0,
+   "steer_R": 238.0
+  },
+  "mean_rate_all_hz": 98.17703768624014
+ },
+ "shuf3": {
+  "left": {
+   "turn": -163.0,
+   "back": 90.5,
+   "steer_L": 165.0,
+   "steer_R": 2.0
+  },
+  "right": {
+   "turn": -133.0,
+   "back": 79.0,
+   "steer_L": 133.0,
+   "steer_R": 0.0
+  },
+  "both": {
+   "turn": -181.0,
+   "back": 123.5,
+   "steer_L": 182.0,
+   "steer_R": 1.0
+  },
+  "mean_rate_all_hz": 93.11218229623138
+ },
+ "shuf4": {
+  "left": {
+   "turn": 27.0,
+   "back": 70.25,
+   "steer_L": 87.0,
+   "steer_R": 114.0
+  },
+  "right": {
+   "turn": 24.0,
+   "back": 75.25,
+   "steer_L": 98.0,
+   "steer_R": 122.0
+  },
+  "both": {
+   "turn": 44.0,
+   "back": 107.25,
+   "steer_L": 127.0,
+   "steer_R": 171.0
+  },
+  "mean_rate_all_hz": 88.64680105170903
+ },
+ "shuf5": {
+  "left": {
+   "turn": 117.0,
+   "back": 40.0,
+   "steer_L": 50.0,
+   "steer_R": 167.0
+  },
+  "right": {
+   "turn": 94.0,
+   "back": 52.75,
+   "steer_L": 53.0,
+   "steer_R": 147.0
+  },
+  "both": {
+   "turn": 148.0,
+   "back": 77.5,
+   "steer_L": 101.0,
+   "steer_R": 249.0
+  },
+  "mean_rate_all_hz": 93.04031551270815
+ },
+ "shuf6": {
+  "left": {
+   "turn": 50.0,
+   "back": 39.75,
+   "steer_L": 191.0,
+   "steer_R": 241.0
+  },
+  "right": {
+   "turn": 59.0,
+   "back": 31.25,
+   "steer_L": 175.0,
+   "steer_R": 234.0
+  },
+  "both": {
+   "turn": 54.0,
+   "back": 62.25,
+   "steer_L": 232.0,
+   "steer_R": 286.0
+  },
+  "mean_rate_all_hz": 96.1840490797546
+ },
+ "shuf7": {
+  "left": {
+   "turn": 138.0,
+   "back": 96.5,
+   "steer_L": 0.0,
+   "steer_R": 138.0
+  },
+  "right": {
+   "turn": 196.0,
+   "back": 99.25,
+   "steer_L": 0.0,
+   "steer_R": 196.0
+  },
+  "both": {
+   "turn": 220.0,
+   "back": 129.0,
+   "steer_L": 0.0,
+   "steer_R": 220.0
+  },
+  "mean_rate_all_hz": 93.26029798422437
+ },
+ "shuf8": {
+  "left": {
+   "turn": 158.0,
+   "back": 71.25,
+   "steer_L": 23.0,
+   "steer_R": 181.0
+  },
+  "right": {
+   "turn": 160.0,
+   "back": 79.0,
+   "steer_L": 40.0,
+   "steer_R": 200.0
+  },
+  "both": {
+   "turn": 173.0,
+   "back": 114.0,
+   "steer_L": 56.0,
+   "steer_R": 229.0
+  },
+  "mean_rate_all_hz": 88.30148992112183
+ },
+ "shuf9": {
+  "left": {
+   "turn": 118.0,
+   "back": 78.0,
+   "steer_L": 123.0,
+   "steer_R": 241.0
+  },
+  "right": {
+   "turn": 68.0,
+   "back": 78.5,
+   "steer_L": 149.0,
+   "steer_R": 217.0
+  },
+  "both": {
+   "turn": 98.0,
+   "back": 114.5,
+   "steer_L": 201.0,
+   "steer_R": 299.0
+  },
+  "mean_rate_all_hz": 90.79842243645925
+ },
+ "shuf10": {
+  "left": {
+   "turn": -113.0,
+   "back": 62.25,
+   "steer_L": 227.0,
+   "steer_R": 114.0
+  },
+  "right": {
+   "turn": -120.0,
+   "back": 66.5,
+   "steer_L": 232.0,
+   "steer_R": 112.0
+  },
+  "both": {
+   "turn": -164.0,
+   "back": 83.5,
+   "steer_L": 315.0,
+   "steer_R": 151.0
+  },
+  "mean_rate_all_hz": 91.62050832602979
+ },
+ "shuf11": {
+  "left": {
+   "turn": 54.0,
+   "back": 91.75,
+   "steer_L": 0.0,
+   "steer_R": 54.0
+  },
+  "right": {
+   "turn": 53.0,
+   "back": 92.75,
+   "steer_L": 2.0,
+   "steer_R": 55.0
+  },
+  "both": {
+   "turn": 131.0,
+   "back": 113.75,
+   "steer_L": 1.0,
+   "steer_R": 132.0
+  },
+  "mean_rate_all_hz": 95.87204206836108
+ },
+ "shuf12": {
+  "left": {
+   "turn": 40.0,
+   "back": 71.75,
+   "steer_L": 123.0,
+   "steer_R": 163.0
+  },
+  "right": {
+   "turn": 47.0,
+   "back": 68.75,
+   "steer_L": 104.0,
+   "steer_R": 151.0
+  },
+  "both": {
+   "turn": 76.0,
+   "back": 90.5,
+   "steer_L": 155.0,
+   "steer_R": 231.0
+  },
+  "mean_rate_all_hz": 93.93602103418054
+ },
+ "shuf13": {
+  "left": {
+   "turn": -242.0,
+   "back": 108.25,
+   "steer_L": 325.0,
+   "steer_R": 83.0
+  },
+  "right": {
+   "turn": -229.0,
+   "back": 100.5,
+   "steer_L": 316.0,
+   "steer_R": 87.0
+  },
+  "both": {
+   "turn": -261.0,
+   "back": 136.25,
+   "steer_L": 364.0,
+   "steer_R": 103.0
+  },
+  "mean_rate_all_hz": 92.37949167397021
+ },
+ "shuf14": {
+  "left": {
+   "turn": -45.0,
+   "back": 102.25,
+   "steer_L": 169.0,
+   "steer_R": 124.0
+  },
+  "right": {
+   "turn": -66.0,
+   "back": 93.75,
+   "steer_L": 167.0,
+   "steer_R": 101.0
+  },
+  "both": {
+   "turn": -53.0,
+   "back": 125.5,
+   "steer_L": 209.0,
+   "steer_R": 156.0
+  },
+  "mean_rate_all_hz": 92.9780893952673
+ },
+ "shuf15": {
+  "left": {
+   "turn": -66.0,
+   "back": 139.75,
+   "steer_L": 280.0,
+   "steer_R": 214.0
+  },
+  "right": {
+   "turn": -15.0,
+   "back": 120.75,
+   "steer_L": 272.0,
+   "steer_R": 257.0
+  },
+  "both": {
+   "turn": -30.0,
+   "back": 159.25,
+   "steer_L": 335.0,
+   "steer_R": 305.0
+  },
+  "mean_rate_all_hz": 94.9298860648554
+ },
+ "shuf16": {
+  "left": {
+   "turn": 181.0,
+   "back": 63.5,
+   "steer_L": 122.0,
+   "steer_R": 303.0
+  },
+  "right": {
+   "turn": 90.0,
+   "back": 61.5,
+   "steer_L": 168.0,
+   "steer_R": 258.0
+  },
+  "both": {
+   "turn": 160.0,
+   "back": 93.25,
+   "steer_L": 208.0,
+   "steer_R": 368.0
+  },
+  "mean_rate_all_hz": 95.61700262927256
+ },
+ "shuf17": {
+  "left": {
+   "turn": 80.0,
+   "back": 105.75,
+   "steer_L": 118.0,
+   "steer_R": 198.0
+  },
+  "right": {
+   "turn": 142.0,
+   "back": 109.5,
+   "steer_L": 106.0,
+   "steer_R": 248.0
+  },
+  "both": {
+   "turn": 149.0,
+   "back": 159.0,
+   "steer_L": 153.0,
+   "steer_R": 302.0
+  },
+  "mean_rate_all_hz": 93.7125328659071
+ },
+ "shuf18": {
+  "left": {
+   "turn": 3.0,
+   "back": 176.5,
+   "steer_L": 240.0,
+   "steer_R": 243.0
+  },
+  "right": {
+   "turn": 21.0,
+   "back": 180.75,
+   "steer_L": 241.0,
+   "steer_R": 262.0
+  },
+  "both": {
+   "turn": 16.0,
+   "back": 206.25,
+   "steer_L": 297.0,
+   "steer_R": 313.0
+  },
+  "mean_rate_all_hz": 100.95092024539878
+ },
+ "shuf19": {
+  "left": {
+   "turn": -56.0,
+   "back": 118.25,
+   "steer_L": 138.0,
+   "steer_R": 82.0
+  },
+  "right": {
+   "turn": -43.0,
+   "back": 102.5,
+   "steer_L": 126.0,
+   "steer_R": 83.0
+  },
+  "both": {
+   "turn": -5.0,
+   "back": 151.25,
+   "steer_L": 180.0,
+   "steer_R": 175.0
+  },
+  "mean_rate_all_hz": 92.43558282208589
+ },
+ "shuf20": {
+  "left": {
+   "turn": 76.0,
+   "back": 138.0,
+   "steer_L": 96.0,
+   "steer_R": 172.0
+  },
+  "right": {
+   "turn": 66.0,
+   "back": 128.0,
+   "steer_L": 118.0,
+   "steer_R": 184.0
+  },
+  "both": {
+   "turn": 49.0,
+   "back": 155.0,
+   "steer_L": 163.0,
+   "steer_R": 212.0
+  },
+  "mean_rate_all_hz": 99.43645924627519
+ },
+ "shuf21": {
+  "left": {
+   "turn": 124.0,
+   "back": 95.75,
+   "steer_L": 121.0,
+   "steer_R": 245.0
+  },
+  "right": {
+   "turn": 122.0,
+   "back": 83.75,
+   "steer_L": 124.0,
+   "steer_R": 246.0
+  },
+  "both": {
+   "turn": 155.0,
+   "back": 106.5,
+   "steer_L": 175.0,
+   "steer_R": 330.0
+  },
+  "mean_rate_all_hz": 89.97195442594216
+ },
+ "shuf22": {
+  "left": {
+   "turn": 102.0,
+   "back": 46.75,
+   "steer_L": 15.0,
+   "steer_R": 117.0
+  },
+  "right": {
+   "turn": 169.0,
+   "back": 53.25,
+   "steer_L": 43.0,
+   "steer_R": 212.0
+  },
+  "both": {
+   "turn": 142.0,
+   "back": 75.0,
+   "steer_L": 78.0,
+   "steer_R": 220.0
+  },
+  "mean_rate_all_hz": 90.36021034180543
+ },
+ "shuf23": {
+  "left": {
+   "turn": 12.0,
+   "back": 71.5,
+   "steer_L": 99.0,
+   "steer_R": 111.0
+  },
+  "right": {
+   "turn": -33.0,
+   "back": 62.75,
+   "steer_L": 131.0,
+   "steer_R": 98.0
+  },
+  "both": {
+   "turn": -38.0,
+   "back": 95.75,
+   "steer_L": 171.0,
+   "steer_R": 133.0
+  },
+  "mean_rate_all_hz": 91.00350569675723
+ },
+ "shuf24": {
+  "left": {
+   "turn": 91.0,
+   "back": 24.75,
+   "steer_L": 46.0,
+   "steer_R": 137.0
+  },
+  "right": {
+   "turn": -7.0,
+   "back": 25.75,
+   "steer_L": 103.0,
+   "steer_R": 96.0
+  },
+  "both": {
+   "turn": 64.0,
+   "back": 36.75,
+   "steer_L": 115.0,
+   "steer_R": 179.0
+  },
+  "mean_rate_all_hz": 92.58983347940404
+ },
+ "shuf25": {
+  "left": {
+   "turn": -27.0,
+   "back": 86.0,
+   "steer_L": 135.0,
+   "steer_R": 108.0
+  },
+  "right": {
+   "turn": -81.0,
+   "back": 81.75,
+   "steer_L": 175.0,
+   "steer_R": 94.0
+  },
+  "both": {
+   "turn": -58.0,
+   "back": 116.0,
+   "steer_L": 207.0,
+   "steer_R": 149.0
+  },
+  "mean_rate_all_hz": 95.02015775635408
+ },
+ "shuf26": {
+  "left": {
+   "turn": -16.0,
+   "back": 149.5,
+   "steer_L": 119.0,
+   "steer_R": 103.0
+  },
+  "right": {
+   "turn": 131.0,
+   "back": 158.75,
+   "steer_L": 38.0,
+   "steer_R": 169.0
+  },
+  "both": {
+   "turn": 68.0,
+   "back": 197.0,
+   "steer_L": 141.0,
+   "steer_R": 209.0
+  },
+  "mean_rate_all_hz": 90.52322524101665
+ },
+ "shuf27": {
+  "left": {
+   "turn": -22.0,
+   "back": 60.25,
+   "steer_L": 187.0,
+   "steer_R": 165.0
+  },
+  "right": {
+   "turn": -15.0,
+   "back": 60.75,
+   "steer_L": 189.0,
+   "steer_R": 174.0
+  },
+  "both": {
+   "turn": -36.0,
+   "back": 76.0,
+   "steer_L": 256.0,
+   "steer_R": 220.0
+  },
+  "mean_rate_all_hz": 92.61349693251533
+ },
+ "shuf28": {
+  "left": {
+   "turn": -146.0,
+   "back": 31.0,
+   "steer_L": 219.0,
+   "steer_R": 73.0
+  },
+  "right": {
+   "turn": -126.0,
+   "back": 39.0,
+   "steer_L": 235.0,
+   "steer_R": 109.0
+  },
+  "both": {
+   "turn": -190.0,
+   "back": 48.5,
+   "steer_L": 320.0,
+   "steer_R": 130.0
+  },
+  "mean_rate_all_hz": 95.7931638913234
+ },
+ "shuf29": {
+  "left": {
+   "turn": 88.0,
+   "back": 76.0,
+   "steer_L": 204.0,
+   "steer_R": 292.0
+  },
+  "right": {
+   "turn": 79.0,
+   "back": 89.25,
+   "steer_L": 208.0,
+   "steer_R": 287.0
+  },
+  "both": {
+   "turn": 101.0,
+   "back": 105.5,
+   "steer_L": 271.0,
+   "steer_R": 372.0
+  },
+  "mean_rate_all_hz": 90.59333917616127
+ },
+ "shuf30": {
+  "left": {
+   "turn": -163.0,
+   "back": 74.25,
+   "steer_L": 310.0,
+   "steer_R": 147.0
+  },
+  "right": {
+   "turn": -154.0,
+   "back": 69.25,
+   "steer_L": 300.0,
+   "steer_R": 146.0
+  },
+  "both": {
+   "turn": -183.0,
+   "back": 108.5,
+   "steer_L": 365.0,
+   "steer_R": 182.0
+  },
+  "mean_rate_all_hz": 91.59947414548641
+ },
+ "shuf31": {
+  "left": {
+   "turn": 238.0,
+   "back": 96.75,
+   "steer_L": 85.0,
+   "steer_R": 323.0
+  },
+  "right": {
+   "turn": 242.0,
+   "back": 88.5,
+   "steer_L": 60.0,
+   "steer_R": 302.0
+  },
+  "both": {
+   "turn": 295.0,
+   "back": 127.5,
+   "steer_L": 99.0,
+   "steer_R": 394.0
+  },
+  "mean_rate_all_hz": 93.0806310254163
+ },
+ "shuf32": {
+  "left": {
+   "turn": 147.0,
+   "back": 83.25,
+   "steer_L": 4.0,
+   "steer_R": 151.0
+  },
+  "right": {
+   "turn": 145.0,
+   "back": 77.75,
+   "steer_L": 0.0,
+   "steer_R": 145.0
+  },
+  "both": {
+   "turn": 220.0,
+   "back": 118.5,
+   "steer_L": 8.0,
+   "steer_R": 228.0
+  },
+  "mean_rate_all_hz": 88.5617879053462
+ },
+ "shuf33": {
+  "left": {
+   "turn": -73.0,
+   "back": 74.75,
+   "steer_L": 149.0,
+   "steer_R": 76.0
+  },
+  "right": {
+   "turn": -38.0,
+   "back": 76.0,
+   "steer_L": 136.0,
+   "steer_R": 98.0
+  },
+  "both": {
+   "turn": -27.0,
+   "back": 106.5,
+   "steer_L": 188.0,
+   "steer_R": 161.0
+  },
+  "mean_rate_all_hz": 91.84487291849256
+ },
+ "shuf34": {
+  "left": {
+   "turn": 8.0,
+   "back": 35.0,
+   "steer_L": 120.0,
+   "steer_R": 128.0
+  },
+  "right": {
+   "turn": -9.0,
+   "back": 44.75,
+   "steer_L": 152.0,
+   "steer_R": 143.0
+  },
+  "both": {
+   "turn": -6.0,
+   "back": 65.0,
+   "steer_L": 184.0,
+   "steer_R": 178.0
+  },
+  "mean_rate_all_hz": 91.08939526730937
+ },
+ "shuf35": {
+  "left": {
+   "turn": 65.0,
+   "back": 107.25,
+   "steer_L": 63.0,
+   "steer_R": 128.0
+  },
+  "right": {
+   "turn": 109.0,
+   "back": 106.25,
+   "steer_L": 23.0,
+   "steer_R": 132.0
+  },
+  "both": {
+   "turn": 110.0,
+   "back": 144.75,
+   "steer_L": 70.0,
+   "steer_R": 180.0
+  },
+  "mean_rate_all_hz": 91.15162138475021
+ },
+ "shuf36": {
+  "left": {
+   "turn": 220.0,
+   "back": 50.25,
+   "steer_L": 0.0,
+   "steer_R": 220.0
+  },
+  "right": {
+   "turn": 167.0,
+   "back": 50.25,
+   "steer_L": 0.0,
+   "steer_R": 167.0
+  },
+  "both": {
+   "turn": 269.0,
+   "back": 74.75,
+   "steer_L": 0.0,
+   "steer_R": 269.0
+  },
+  "mean_rate_all_hz": 83.4820333041192
+ },
+ "shuf37": {
+  "left": {
+   "turn": -49.0,
+   "back": 133.5,
+   "steer_L": 49.0,
+   "steer_R": 0.0
+  },
+  "right": {
+   "turn": -1.0,
+   "back": 139.25,
+   "steer_L": 1.0,
+   "steer_R": 0.0
+  },
+  "both": {
+   "turn": -15.0,
+   "back": 174.0,
+   "steer_L": 16.0,
+   "steer_R": 1.0
+  },
+  "mean_rate_all_hz": 88.08413672217353
+ },
+ "shuf38": {
+  "left": {
+   "turn": 13.0,
+   "back": 141.5,
+   "steer_L": 147.0,
+   "steer_R": 160.0
+  },
+  "right": {
+   "turn": -37.0,
+   "back": 138.25,
+   "steer_L": 165.0,
+   "steer_R": 128.0
+  },
+  "both": {
+   "turn": 12.0,
+   "back": 174.75,
+   "steer_L": 223.0,
+   "steer_R": 235.0
+  },
+  "mean_rate_all_hz": 96.38475021910605
+ },
+ "shuf39": {
+  "left": {
+   "turn": 6.0,
+   "back": 65.25,
+   "steer_L": 143.0,
+   "steer_R": 149.0
+  },
+  "right": {
+   "turn": -35.0,
+   "back": 87.5,
+   "steer_L": 133.0,
+   "steer_R": 98.0
+  },
+  "both": {
+   "turn": 48.0,
+   "back": 114.5,
+   "steer_L": 174.0,
+   "steer_R": 222.0
+  },
+  "mean_rate_all_hz": 90.1717791411043
+ },
+ "shuf40": {
+  "left": {
+   "turn": 66.0,
+   "back": 43.75,
+   "steer_L": 83.0,
+   "steer_R": 149.0
+  },
+  "right": {
+   "turn": 25.0,
+   "back": 29.25,
+   "steer_L": 99.0,
+   "steer_R": 124.0
+  },
+  "both": {
+   "turn": 55.0,
+   "back": 63.25,
+   "steer_L": 117.0,
+   "steer_R": 172.0
+  },
+  "mean_rate_all_hz": 93.61349693251533
+ },
+ "shuf41": {
+  "left": {
+   "turn": 145.0,
+   "back": 31.5,
+   "steer_L": 53.0,
+   "steer_R": 198.0
+  },
+  "right": {
+   "turn": 114.0,
+   "back": 32.25,
+   "steer_L": 96.0,
+   "steer_R": 210.0
+  },
+  "both": {
+   "turn": 194.0,
+   "back": 47.5,
+   "steer_L": 99.0,
+   "steer_R": 293.0
+  },
+  "mean_rate_all_hz": 92.7589833479404
+ },
+ "shuf42": {
+  "left": {
+   "turn": 41.0,
+   "back": 55.25,
+   "steer_L": 148.0,
+   "steer_R": 189.0
+  },
+  "right": {
+   "turn": 106.0,
+   "back": 64.25,
+   "steer_L": 121.0,
+   "steer_R": 227.0
+  },
+  "both": {
+   "turn": 75.0,
+   "back": 77.25,
+   "steer_L": 198.0,
+   "steer_R": 273.0
+  },
+  "mean_rate_all_hz": 96.7808939526731
+ },
+ "shuf43": {
+  "left": {
+   "turn": -79.0,
+   "back": 74.75,
+   "steer_L": 347.0,
+   "steer_R": 268.0
+  },
+  "right": {
+   "turn": -66.0,
+   "back": 71.75,
+   "steer_L": 321.0,
+   "steer_R": 255.0
+  },
+  "both": {
+   "turn": -51.0,
+   "back": 95.75,
+   "steer_L": 400.0,
+   "steer_R": 349.0
+  },
+  "mean_rate_all_hz": 100.05959684487291
+ },
+ "shuf44": {
+  "left": {
+   "turn": 61.0,
+   "back": 106.75,
+   "steer_L": 131.0,
+   "steer_R": 192.0
+  },
+  "right": {
+   "turn": -3.0,
+   "back": 91.25,
+   "steer_L": 190.0,
+   "steer_R": 187.0
+  },
+  "both": {
+   "turn": 52.0,
+   "back": 133.0,
+   "steer_L": 222.0,
+   "steer_R": 274.0
+  },
+  "mean_rate_all_hz": 90.68098159509202
+ },
+ "shuf45": {
+  "left": {
+   "turn": 69.0,
+   "back": 72.5,
+   "steer_L": 134.0,
+   "steer_R": 203.0
+  },
+  "right": {
+   "turn": 79.0,
+   "back": 71.5,
+   "steer_L": 120.0,
+   "steer_R": 199.0
+  },
+  "both": {
+   "turn": 109.0,
+   "back": 100.75,
+   "steer_L": 183.0,
+   "steer_R": 292.0
+  },
+  "mean_rate_all_hz": 88.5740578439965
+ },
+ "shuf46": {
+  "left": {
+   "turn": 78.0,
+   "back": 83.75,
+   "steer_L": 80.0,
+   "steer_R": 158.0
+  },
+  "right": {
+   "turn": 36.0,
+   "back": 74.25,
+   "steer_L": 104.0,
+   "steer_R": 140.0
+  },
+  "both": {
+   "turn": 41.0,
+   "back": 105.25,
+   "steer_L": 154.0,
+   "steer_R": 195.0
+  },
+  "mean_rate_all_hz": 94.91411042944786
+ },
+ "shuf47": {
+  "left": {
+   "turn": -11.0,
+   "back": 80.25,
+   "steer_L": 128.0,
+   "steer_R": 117.0
+  },
+  "right": {
+   "turn": -27.0,
+   "back": 64.75,
+   "steer_L": 113.0,
+   "steer_R": 86.0
+  },
+  "both": {
+   "turn": 7.0,
+   "back": 100.25,
+   "steer_L": 136.0,
+   "steer_R": 143.0
+  },
+  "mean_rate_all_hz": 95.32340052585451
+ },
+ "shuf48": {
+  "left": {
+   "turn": -30.0,
+   "back": 87.75,
+   "steer_L": 163.0,
+   "steer_R": 133.0
+  },
+  "right": {
+   "turn": -6.0,
+   "back": 89.75,
+   "steer_L": 157.0,
+   "steer_R": 151.0
+  },
+  "both": {
+   "turn": -50.0,
+   "back": 115.75,
+   "steer_L": 232.0,
+   "steer_R": 182.0
+  },
+  "mean_rate_all_hz": 89.46801051709028
+ },
+ "shuf49": {
+  "left": {
+   "turn": 87.0,
+   "back": 62.25,
+   "steer_L": 152.0,
+   "steer_R": 239.0
+  },
+  "right": {
+   "turn": 69.0,
+   "back": 74.25,
+   "steer_L": 163.0,
+   "steer_R": 232.0
+  },
+  "both": {
+   "turn": 84.0,
+   "back": 89.75,
+   "steer_L": 238.0,
+   "steer_R": 322.0
+  },
+  "mean_rate_all_hz": 97.2874671340929
+ }
+}
