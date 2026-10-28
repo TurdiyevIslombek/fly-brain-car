@@ -71,14 +71,9 @@ Arduino Uno · L298N motor driver · 4 DC gear motors · HC-SR04 ultrasonic sens
 
 The ESP32-CAM's WiFi name and password go in `esp32cam/camera_stream/wifi_settings.h`, which is git-ignored; start from `wifi_settings.example.h`. If you build one, change the camera's own hotspot password (`AP_PASSWORD`).
 
-## Who did what
-
-- **Islombek Turdiyev (me):** the idea, the three-stage plan and the decisions. I built all the hardware alone: the cardboard chassis, the wiring, both handmade battery packs, the scanning sensor mount I designed, and the test arena. I wrote the first stage 1 code, ran every test on the car, recorded every run, and measured and fixed the power failure.
-- **Claude (Anthropic), my AI coding partner:** I specified what each part had to do; Claude wrote most of the code (the circuit selection from FlyWire, the neuron simulator, the sensor-to-wheel interface, the stuck reflex, the firmware including the later radar version of stage 1, the WiFi link, the simulator and the control test). I tested every version on the car and decided what to change.
-- **From research:** the wiring (FlyWire Consortium) and the neuron model (Shiu et al. 2024). No neuron, weight or connection was changed by hand.
-
 ## Credits and license
 
+- Built by Islombek Turdiyev: hardware, design and all tests. Code developed with Claude (Anthropic) as an AI coding assistant.
 - Connectome data: FlyWire Consortium, *FlyWire Whole-brain Connectome Connectivity Data*, v783, Zenodo, doi:10.5281/zenodo.10676866, CC BY 4.0. The files in `brain/locomotion/` are derived from it; see `brain/locomotion/DATA_LICENSE.md` for what was changed.
 - Dorkenwald, S., Matsliah, A., Sterling, A. R., Schlegel, P., et al. (FlyWire Consortium) 2024. Neuronal wiring diagram of an adult brain. *Nature* 634, 124–138. doi:10.1038/s41586-024-07558-y
 - Schlegel, P., et al. 2024. Whole-brain annotation and multi-connectome cell typing of *Drosophila*. *Nature* 634, 139–152. doi:10.1038/s41586-024-07686-5
